@@ -1,0 +1,48 @@
+h1{
+    color:red;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: 100px;
+   
+}
+
+/**{
+    border:solid;
+}*/
+
+table{
+    table-layout: fixed;
+}
+
+p{
+    direction: rtl;
+}
+
+.header{
+    background-color:transparent;
+    display:flex;
+    justify-content:space-between;
+    direction: ltr;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.footer{
+    background-color: #129131;
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    background-color: orange;
+}
+
+body{
+    background-color: #FEDCBA;
+    background-image: url("fsh.png");
+    background-size: 100% 100%
+}
